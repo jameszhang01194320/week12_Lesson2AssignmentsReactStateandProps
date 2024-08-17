@@ -1,0 +1,28 @@
+/* App.css or index.css */
+
+/* Styling for the movie titles to change the cursor on hover */
+.movie-title {
+  cursor: pointer; /* Change cursor to a pointer (hand) when hovering */
+  font-weight: bold; /* Optional: Make the movie title bold */
+  margin-right: 10px; /* Space between the title and remove button */
+}
+
+.left-aligned-container li {
+  margin-bottom: 15px;  /* Increase space between list items */
+  line-height: 1.6;     /* Increase line height for readability */
+  list-style: none;     /* Remove bullet points */
+}
+
+button {
+  cursor: pointer; /* Change cursor to a pointer when hovering over the button */
+  margin-left: 10px; /* Add some space between the title/description and the button */
+  padding: 15px 20px; /* Padding for a better clickable area */
+  border: none; /* Remove the default border */
+  background-color: #918a89; /* Add a background color */
+  color: white; /* White text color */
+  border-radius: 5px; /* Rounded corners */
+}
+
+button:hover {
+  background-color: #d32f2f; /* Darker color on hover */
+}
